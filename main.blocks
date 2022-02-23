@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="}j0D$t)@-bbyWre56A*e">Player</variable><variable type="KIND_SpriteKind" id="_FQ$Kr`O%q}([h53|t@h">Projectile</variable><variable type="KIND_SpriteKind" id="z;c`4q)sx,r!Le0Rzr:D">Food</variable><variable type="KIND_SpriteKind" id="_vcLk`En8Ag:c*PmWk4k">Enemy</variable><variable id="K50mNkCqzrTSio5z~F+d">girl</variable><variable id="YVZ9^D$cw.pBfxuT6,cG">item</variable><variable id="K:`]I9U)UHi8HlA?i|67">mySprite</variable></variables><block type="pxt-on-start" id="$QahF-RTf`#Dsc?^8*`1" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="7v9]#f2=Q9b1r@PjUH_S"><field name="VAR" id="K50mNkCqzrTSio5z~F+d">girl</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="4C|yQ5v%(5=E?14vW0L*"><value name="img"><shadow type="screen_image_picker" id="]#msc]in4Muz~i4(1Lfm"><field name="img">img`
+. . . . . . . f f . . . . . . . 
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. f e 3 3 3 3 3 3 3 3 3 3 e f . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f b 3 f f e e e e f f 3 b f . 
+f f b b f b f e e f b f b b f f 
+f b b b e 1 f 4 4 f 1 e b b b f 
+. f b b e e 4 4 4 4 4 f b b f . 
+. . f 4 4 4 e d d d b f e f . . 
+. . f e 4 4 e d d d d c 4 e . . 
+. . . f e e d d b d b b f e . . 
+. . . f f 1 d 1 d 1 1 f f . . . 
+. . . . . f f f b b f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"]#msc]in4Muz~i4(1Lfm"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="*M4rc_NzeqZ=Tq|u$^uI"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="game_control_sprite" id="S-cASr1xY^sUH`S5.:c6"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><value name="sprite"><block type="variables_get" id=",F$^B]NiZroW={eDxg.C"><field name="VAR" id="K50mNkCqzrTSio5z~F+d">girl</field></block></value></block></next></block></statement></block><block type="keyonevent" id="GQEA2F?aDP3L(]L?q[y6" x="30" y="290"><field name="button">controller.A</field><field name="event">ControllerButtonEvent.Pressed</field><statement name="HANDLER"><block type="startEffectOnSprite" id="BBo75yt{yp9uTg-brwle"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="false"></mutation><field name="effect">effects.spray</field><value name="sprite"><block type="variables_get" id="eEv}4;7aN}Aaa!=)qsg="><field name="VAR" id="K50mNkCqzrTSio5z~F+d">girl</field></block></value></block></statement></block></xml>
